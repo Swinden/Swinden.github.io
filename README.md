@@ -2,34 +2,34 @@
     <div align="right">
         简体中文 | <a href="README-EN.md">English</a>
     </div>
-    <h1>knightyun.github.io</h1>
+    <h1>swinden.github.io</h1>
     <p>基于 jekyll 的响应式 Github Pages 个人博客网站</p>
 
-[![license](https://img.shields.io/github/license/knightyun/knightyun.github.io)](https://github.com/knightyun/knightyun.github.io/blob/master/COPYING)
-[![Gitter](https://img.shields.io/gitter/room/knightyun/knightyun.github.i0)](https://gitter.im/knightyun-github-io/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![Website](https://img.shields.io/website?down_color=lightgrey%09&down_message=offline&up_color=%09aqua&up_message=online&url=https%3A%2F%2Fknightyun.github.io)](https://knightyun.github.io)
-[![GitHub deployments](https://img.shields.io/github/deployments/knightyun/knightyun.github.io/github-pages)](https://github.com/knightyun/knightyun.github.io/deployments)
-![GitHub top language](https://img.shields.io/github/languages/top/knightyun/knightyun.github.io)
+[![license](https://img.shields.io/github/license/swinden/swinden.github.io)](https://github.com/swinden/swinden.github.io/blob/master/COPYING)
+[![Gitter](https://img.shields.io/gitter/room/swinden/swinden.github.i0)](https://gitter.im/swinden-github-io/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Website](https://img.shields.io/website?down_color=lightgrey%09&down_message=offline&up_color=%09aqua&up_message=online&url=https%3A%2F%2Fswinden.github.io)](https://swinden.github.io)
+[![GitHub deployments](https://img.shields.io/github/deployments/swinden/swinden.github.io/github-pages)](https://github.com/swinden/swinden.github.io/deployments)
+![GitHub top language](https://img.shields.io/github/languages/top/swinden/swinden.github.io)
 
-![GitHub stars](https://img.shields.io/github/stars/knightyun/knightyun.github.io?style=flat)
-![GitHub forks](https://img.shields.io/github/forks/knightyun/knightyun.github.io?style=flat)
-![GitHub followers](https://img.shields.io/github/followers/knightyun?style=flat)
-[![Github issues](https://img.shields.io/badge/issues-welcome-success)](https://github.com/knightyun/knightyun.github.io/issues)
-[![Github pull request](https://img.shields.io/badge/pull%20request-welcome-success)](https://github.com/knightyun/knightyun.github.io/pulls)
+![GitHub stars](https://img.shields.io/github/stars/swinden/swinden.github.io?style=flat)
+![GitHub forks](https://img.shields.io/github/forks/swinden/swinden.github.io?style=flat)
+![GitHub followers](https://img.shields.io/github/followers/swinden?style=flat)
+[![Github issues](https://img.shields.io/badge/issues-welcome-success)](https://github.com/swinden/swinden.github.io/issues)
+[![Github pull request](https://img.shields.io/badge/pull%20request-welcome-success)](https://github.com/swinden/swinden.github.io/pulls)
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/knightyun/knightyun.github.io)](https://github.com/knightyun/knightyun.github.io/commit/master)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/knightyun/knightyun.github.io)](https://github.com/knightyun/knightyun.github.io/graphs/commit-activity)
-![GitHub repo size](https://img.shields.io/github/repo-size/knightyun/knightyun.github.io)
+[![GitHub last commit](https://img.shields.io/github/last-commit/swinden/swinden.github.io)](https://github.com/swinden/swinden.github.io/commit/master)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/swinden/swinden.github.io)](https://github.com/swinden/swinden.github.io/graphs/commit-activity)
+![GitHub repo size](https://img.shields.io/github/repo-size/swinden/swinden.github.io)
 </div>
 
 ## 特性
 
-- 适配移动端与桌面端展示效果 | [预览](https://knightyun.github.io)
-- 个性化自动展示 GitHub 项目 | [预览](https://knightyun.github.io/projects)
-- 文章按类别与标签归档展示 | [预览](https://knightyun.github.io/categories)
-- 支持搜索框，按关键词搜索全站文章 | [预览](https://knightyun.github.io)
-- 文章评论与留言板功能 | [预览](https://knightyun.github.io/message)
-- 生动的 “关于” 页面 | [预览](https://knightyun.github.io/about)
+- 适配移动端与桌面端展示效果 | [预览](https://swinden.github.io)
+- 个性化自动展示 GitHub 项目 | [预览](https://swinden.github.io/projects)
+- 文章按类别与标签归档展示 | [预览](https://swinden.github.io/categories)
+- 支持搜索框，按关键词搜索全站文章 | [预览](https://swinden.github.io)
+- 文章评论与留言板功能 | [预览](https://swinden.github.io/message)
+- 生动的 “关于” 页面 | [预览](https://swinden.github.io/about)
 
 ## 使用
 
@@ -46,14 +46,14 @@ jekyll 使用教程：<https://www.jekyll.com.cn/>
 # 以下为自定义的全局变量，可以在 HTML 文件中引用，
 # 比如代码：<h1>{{ site.title }}</h1> 
 # 将会展示为设定的值，也可以自行添加其他自定义全局变量。
-title: 瑝琦的博客 # 网站的标题
+title: 星辰菜鸟 # 网站的标题
 description: > # 网站的描述，可能会出现在搜索引擎展示结果中
   基于 jekyll 的 Github Pages 个人博客网站，技术的学习、总结、分享与提升
-url: "https://knightyun.github.io" # 网站地址
-github_repo: knightyun/knightyun.github.io
-github_profile: "https://github.com/knightyun" # GitHub 个人主页
-user: "瑝琦" # 用于侧栏展示的名字
-user_email: "2386209384@qq.com" # 侧栏展示的联系方式
+url: "https://swinden.github.io" # 网站地址
+github_repo: swinden/swinden.github.io
+github_profile: "https://github.com/swinden" # GitHub 个人主页
+user: "星辰菜鸟" # 用于侧栏展示的名字
+user_email: "xxxxxxxx@gmail.com" # 侧栏展示的联系方式
 paginate: 5 # 主页展示的博客文章数量
 
 # jekyll 相关配置
@@ -80,7 +80,7 @@ theme: jekyll-theme-slate
 
 提交推送代码后，GitHub Pages页面（即博客网站主页）更新较慢，所以推荐搭建本地开发环境，以便调试。
 
-详细教程请见：[安装 jekyll](https://knightyun.github.io/2018/04/01/github-pages-blog#%E5%AE%89%E8%A3%85jekyll-)
+详细教程请见：[安装 jekyll](https://swinden.github.io/2018/04/01/github-pages-blog#%E5%AE%89%E8%A3%85jekyll-)
 
 配置好依赖后在项目主目录运行：
 ```cmd
@@ -102,4 +102,4 @@ bundle exec jekyll s
 
 ## License
 
-[GPL v3](https://github.com/knightyun/knightyun.github.io/blob/master/COPYING)
+[GPL v3](https://github.com/swinden/swinden.github.io/blob/master/COPYING)
