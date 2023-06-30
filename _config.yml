@@ -28,7 +28,6 @@ disqus_username: mathhubdouglas
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
   clientID: 'aaddea55191d7929f264'                            #生成的clientID
   clientSecret: '6d701918f47fe81def1a876271db32539ed76544'    #生成的clientSecret
   repo: Swinden.github.io    #仓库名称
