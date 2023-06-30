@@ -11,24 +11,43 @@
 # 以下为自定义的全局变量，可以在 HTML 文件中引用，
 # 比如代码：<h1>{{ site.title }}</h1> 
 # 将会展示为设定的值，也可以自行添加其他自定义全局变量。
-title: 瑝琦的博客 # 网站的标题
+title: 星辰菜鸟的博客 # 网站的标题
 description: > # 网站的描述，可能会出现在搜索引擎展示结果中
   基于 jekyll 的 Github Pages 个人博客网站，技术的学习、总结、分享与提升
-url: "https://knightyun.github.io" # 网站地址
-github_repo: "https://github.com/knightyun/knightyun.github.io"
-github_profile: "https://github.com/knightyun" # GitHub 个人主页
-user: "瑝琦" # 用于侧栏展示的名字
-user_email: "2386209384@qq.com" # 侧栏展示的联系方式
-paginate: 5 # 主页展示的博客文章数量
-nick_name: "瑝琦" # 昵称
-english_name: "Knight"
-# valine 评论插件配置
-valine:
-  leancloud_appid: "4XY3DoTJmibNe3rHeAKOxqzl-gzGzoHsz"
-  leancloud_appkey: "vjothQHALvgTQF9GrSgj577a"
+url: "https://swinden.github.io" # 网站地址
+github_repo: "https://github.com/Swinden/Swinden.github.io.git"
+github_profile: "https://github.com/swinden" # GitHub 个人主页
+user: "星辰菜鸟" # 用于侧栏展示的名字
+user_email: "abcswinden@gmail.com" # 侧栏展示的联系方式
+paginate: 10 # 主页展示的博客文章数量
+nick_name: "星辰菜鸟" # 昵称
+english_name: "Mathhub Douglas"
+# 评论系统 评论插件配置
+# Disqus（https://disqus.com/）
+disqus_username: mathhubdouglas
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 'aaddea55191d7929f264'                            #生成的clientID
+  clientSecret: '6d701918f47fe81def1a876271db32539ed76544'    #生成的clientSecret
+  repo: Swinden.github.io    #仓库名称
+  owner: Swinden    #github用户名
+  admin: Swinden
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 # jekyll 相关配置
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
