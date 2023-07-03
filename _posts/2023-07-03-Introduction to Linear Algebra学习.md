@@ -2,13 +2,13 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:       Introduction to Linear Algebra学习 				# 标题 
 subtitle:   线代学习 #副标题
-date:       2023-07-3 				# 时间
+date:       2023-07-03 				# 时间
 categories: Blog
 author:     星辰菜鸟 						# 作者
 catalog: true 						# 是否归档
 tags:								#标签
-    - Blog
-   - 线性代数
+  - Blog
+  - 线性代数
 ---
 
 
